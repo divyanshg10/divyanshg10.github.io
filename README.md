@@ -50,8 +50,8 @@ Make sure you have the following installed:
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/divyanshg10/portfolio.git
-cd portfolio
+git clone https://github.com/divyanshg10/divyanshg10.github.io.git
+cd divyanshg10.github.io
 ```
 
 ### 3. Install Dependencies
@@ -104,6 +104,8 @@ This portfolio can be deployed on **GitHub Pages** or any static hosting platfor
 
 ### Deploy on GitHub Pages
 
+*Make sure your repository name is \<username\>.github.io*
+
 1. Install the `gh-pages` package:
    ```bash
    npm install gh-pages
@@ -111,15 +113,16 @@ This portfolio can be deployed on **GitHub Pages** or any static hosting platfor
 
 2. Open `package.json`, and add the homepage URL of your website:
    ```json
-   "homepage": "https://yourusername.github.io/portfolio"
+   "homepage": "https://yourusername.github.io"
    ```
 
 3. Deploy using:
    ```bash
    npm run deploy
    ```
-
-Your portfolio will be live at `https://yourusername.github.io/portfolio`.
+Updated build be pushed to gh-pages branch by default. 
+Make sure, gh-pages branch is set as source for pages under settings.  
+Your portfolio will be live at `https://yourusername.github.io`.
 
 ---
 
